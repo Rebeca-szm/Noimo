@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const responses = {
             'oi': "Olá! Como posso te ajudar hoje?",
             'olá': "Olá! Como posso te ajudar hoje?",
+            'ola': "Olá! Como posso te ajudar hoje?",
             'nome': "Eu sou uma IA simples criada para demonstrar conceitos básicos.",
             'horas': `Agora são ${new Date().getHours()} horas e ${new Date().getMinutes()} minutos.`,
             'tudo bem': "Estou funcionando perfeitamente, obrigado por perguntar!",

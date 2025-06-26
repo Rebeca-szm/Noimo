@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Imagem com Efeito Pixel</title>
+    <link rel="stylesheet" href="../styles/style2.css">
+</head>
+<body>
+    <h1>Editor de Imagem com Efeito Pixel</h1>
+    
+    <div class="input-group">
+        <input type="file" id="image-input" accept="image/*">
+        <button id="load-button">Carregar Imagem</button>
+    </div>
+    
+    <div class="controls">
+        <label for="color-picker">Cor dos pixels aleatórios:</label>
+        <input type="color" id="color-picker" value="#ff0000">
+        
+        <label for="pixel-density">Densidade dos pixels (1-100%):</label>
+        <input type="range" id="pixel-density" min="1" max="100" value="20">
+        <span id="density-value">20%</span>
+        
+        <div class="input-group">
+            <button id="apply-effect">Aplicar Efeito</button>
+            <button id="download-button" disabled>Baixar Imagem</button>
+        </div>
+    </div>
+    
+    <div class="image-container">
+        <div>
+            <h3>Original</h3>
+            <canvas id="original-canvas"></canvas>
+        </div>
+        <div>
+            <h3>Modificada</h3>
+            <canvas id="modified-canvas"></canvas>
+        </div>
+    </div>
+
+    <button onclick = "window.location.href='../index.html'">Voltar</button>
+
+    <script src="../js/script2.js"></script>
+</body>
+</html>
