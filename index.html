@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de IA</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Simulador de IA</h1>
+    
+    <div class="chat-container" id="chat-container">
+        <div class="message ai-message">
+            Olá! Eu sou uma IA simulada. Você pode me enviar mensagens ou imagens e eu tentarei "responder" de forma inteligente. Como posso te ajudar hoje?
+        </div>
+    </div>
+    
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem..." autocomplete="off">
+        
+        <label for="file-input" class="file-label">
+            📎
+        </label>
+        <input type="file" id="file-input" accept="image/*">
+        
+        <button id="send-button">Enviar</button>
+    </div>
+    
+    <div class="file-info" id="file-info">Nenhum arquivo selecionado</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
