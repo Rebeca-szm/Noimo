@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: space mono;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #332531;
+}
+
+h1{
+
+    align-items: center;
+    color: #a06a98;
+    display: flex;
+
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    padding: 0;
+
+}
+
+.titulo{
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+h3{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.input-group {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#image-input{
+
+    padding: 8px 15px;
+    background-color: #B148A1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#image-input:hover{
+
+    background-color: #743a6b;
+
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #B148A1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #743a6b;
+}
+
+#color-picker {
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    color: #a06a98;
+}
+
+canvas {
+    border-bottom: 3px solid #743a6b;
+    background: linear-gradient(to bottom, rgb(223, 199, 219, 0), rgb(223, 199, 219, 0.6));
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+.controls {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #dfc7db;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#download-button {
+    background-color: #b67ead;
+}
+
+#download-button:hover {
+    background-color: #a06395;
+}
+
+#color-piker {
+    /*betinha resolva :)*/
+    border-radius: 1000px;
+    background-color:#dfc7db ;
+
+}
+
+#pixel-density {
+    /*betinha resolva :)*/
+    background-color: #e7a8dd;
+
+}
