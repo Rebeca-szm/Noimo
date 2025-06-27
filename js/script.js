@@ -50,7 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
             'tudo bem': "Estou funcionando perfeitamente, obrigado por perguntar!",
             'javascript': "JavaScript é uma linguagem de programação usada para criar interatividade em páginas web.",
             'html': "HTML é a linguagem de marcação usada para estruturar conteúdo na web.",
-            'css': "CSS é usado para estilizar páginas web e controlar sua aparência."
+            'css': "CSS é usado para estilizar páginas web e controlar sua aparência.",
+            'o que voce faz': "Sou uma IA que analiza e credencia imagens criadas por outras IA's!",
+            'o que voce faz?': "Sou uma IA que analiza e credencia imagens criadas por outras IA's!",
+            'o que você faz': "Sou uma IA que analiza e credencia imagens criadas por outras IA's!",
+            'o que você faz?': "Sou uma IA que analiza e credencia imagens criadas por outras IA's!"
         };
         
         for (const [keyword, response] of Object.entries(responses)) {

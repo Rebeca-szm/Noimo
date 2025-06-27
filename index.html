@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulação de IA Simples</title>
+    <title>Noimo</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="svg/logo.png" type="image/png">
 </head>
 <body>
     
     <div class="titulo">
 
+        <img src="svg/logo.png" alt="">
         <h1>Noimo </h1>
-        <p>Faça uma pergunta e a IA tentará responder. 📎</p>
+        <p>Faça uma pergunta e a IA irá te responder. 📎</p>
+        
 
     </div>
     
@@ -23,10 +26,11 @@
     <input type="text" id="user-input" placeholder="Digite sua pergunta...">
     <button id="send-button">Enviar</button>
     
-
-    <button onclick = "window.location.href='pages/index2.html'">Pag2</button>
-    <button onclick = "window.location.href='pages/index3.html'">Pag3</button>
-
+    <div class="buttons">
+        <button id="pg1" onclick = "window.location.href='pages/index2.html'">Codificador</button>
+        <button id="pg2" onclick = "window.location.href='pages/index3.html'">Identificador</button>
+    </div>
+    
     <script src="js/script.js"></script>
 </body>
 </html>

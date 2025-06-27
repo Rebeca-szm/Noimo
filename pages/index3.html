@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detector de Pixels Aleatórios</title>
+    <title>Detector de Pixels da Noimo</title>
     <link rel="stylesheet" href="../styles/style3.css">
+    <link rel="icon" href="../svg/logo.png" type="image/png">
 </head>
 <body>
-    <h1>Detector de Pixels Aleatórios</h1>
+    
+    <div class="titulo">
+    
+        <img src="../svg/logo.png" alt="">
+        <h1>Detector de Pixels Aleatórios</h1>
+    
+    </div>
+    
     <p>Carregue uma imagem para verificar se contém pixels aleatórios de cor sólida</p>
     
     <div class="input-group">
@@ -32,10 +40,17 @@
         <div>
             <h3>Resultado da Análise</h3>
             <canvas id="result-canvas"></canvas>
-            <div id="analysis-result"></div>
+           
         </div>
     </div>
 
+    <div class="resultado">
+
+        <h3>Resultado</h3>
+        <div id="analysis-result"></div>
+
+    </div>
+    
       <button onclick = "window.location.href='../index.html'">Voltar</button>
 
     <script src="../js/script3.js"></script>
